@@ -1,0 +1,167 @@
+/* Custom Advanced CSS for Flight Travel and Tour webpage */
+
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
+}
+
+/* Banner Section */
+.banner {
+    background-color: rgb(7, 7, 59);;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.banner .logo img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.banner .tabs-content {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.banner .tabs-content h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.banner .social-links {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.banner .social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.banner .social-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.banner .social-links li a:hover {
+    color: #ffc107;
+}
+
+.banner .page-direction-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.banner .page-direction-button a {
+    background-color: #ffc107;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.banner .page-direction-button a:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Form Section */
+.submit-form {
+    background-color: rgb(43, 43, 70);;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.submit-form h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.submit-form label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.submit-form select,
+.submit-form input[type="text"],
+.submit-form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.submit-form button:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer .social-icons li:last-child {
+    margin-right: 0;
+}
+
+footer .social-icons li a {
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+footer .social-icons li a:hover {
+    color: #ffc107;
+}
+
+footer .primary-button a {
+    background-color: #ffc107;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+footer .primary-button a:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
